@@ -1,5 +1,3 @@
-- 👋 Hi
-
 <img src="github_profile_banner.svg" alt="Vondray Sanford — Software Engineer & AI Builder" width="100%" />
 
 ## Hey, I'm Vondray 👋
