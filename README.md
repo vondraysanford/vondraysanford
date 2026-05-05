@@ -10,7 +10,7 @@ I build production systems that process real data at scale (including $1.5T in h
 
 ### 🔨 What I'm Building
 
-**[DocQuery](https://github.com/YOUR_USERNAME/docquery)** — A dual-mode RAG application for querying documents with natural language. Supports both local inference (Ollama on DGX Spark) and Azure OpenAI. Built with C#/.NET 8 and React. Currently using it as my AI-102 study partner.
+**[DocQuery](https://github.com/vondraysanford/docquery)** — A dual-mode RAG application for querying documents with natural language. Supports both local inference (Ollama on DGX Spark) and Azure OpenAI. Built with C#/.NET 8 and React. Currently using it as my AI-102 study partner.
 
 *More projects coming soon — MCP toolkit, agent orchestration framework, and DGX Spark benchmarks.*
 
