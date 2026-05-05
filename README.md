@@ -2,7 +2,7 @@
 
 ## Hey, I'm Vondray 👋
 
-.NET full-stack engineer with experience building high-volume enterprise applications — now going deep on AI engineering.
+.NET full-stack engineer with experience building high-volume enterprise applications that is now going deep on AI engineering.
 
 I build production systems that process real data at scale (including $1.5T in historical insurance data), and I'm channeling that engineering discipline into modern AI: RAG pipelines, multi-agent workflows, and local LLM inference on my NVIDIA DGX Spark.
 
