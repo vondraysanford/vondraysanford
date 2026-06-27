@@ -36,6 +36,7 @@ I architect C#/.NET applications that process $1.5T+ in historical insurance dat
 
 | Certification | Issuer | Date |
 |---|---|---|
+| Azure AI Engineer Associate (AI-102) | Microsoft | Jun 2026 |
 | GitHub Copilot (GH-300) | Microsoft | Jun 2026 |
 | Azure Fundamentals (AZ-900) | Microsoft | Jun 2026 |
 | GitHub Foundations (GH-900) | GitHub | Jun 2026 |
@@ -45,7 +46,7 @@ I architect C#/.NET applications that process $1.5T+ in historical insurance dat
 | Introduction to Subagents | Anthropic | Jun 2026 |
 | Introduction to Agent Skills | Anthropic | Jun 2026 |
 
-📖 **Azure AI Engineer Associate (AI-102)** — In Progress
+📖 **Azure AI Engineer Associate (AI-204)** — In Progress
 
 ---
 
