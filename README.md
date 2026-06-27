@@ -46,7 +46,7 @@ I architect C#/.NET applications that process $1.5T+ in historical insurance dat
 | Introduction to Subagents | Anthropic | Jun 2026 |
 | Introduction to Agent Skills | Anthropic | Jun 2026 |
 
-📖 **Azure Developer Associate (AI-204)** — In Progress
+📖 **Azure Developer Associate (AZ-204)** — In Progress
 
 ---
 
