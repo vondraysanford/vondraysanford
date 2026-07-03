@@ -1,46 +1,60 @@
-- 👋 Hi
-
-<img src="github-banner.png" alt="Vondray Sanford — Software Engineer & AI Builder" width="100%" />
+<img src="github_profile_banner.svg" alt="Vondray Sanford — Software Engineer & AI Builder" width="100%" />
 
 ## Hey, I'm Vondray 👋
 
-.NET full-stack engineer with experience building high-volume enterprise applications — now going deep on AI engineering.
+Software Engineer with 7+ years building full-stack enterprise systems at scale, now going deep on AI engineering.
 
-I build production systems that process real data at scale (including $1.5T in historical insurance data), and I'm channeling that engineering discipline into modern AI: RAG pipelines, multi-agent workflows, and local LLM inference on my NVIDIA DGX Spark.
+I architect C#/.NET applications that process $1.5T+ in historical insurance data for 18 of the top 20 U.S. carriers. I'm channeling that enterprise engineering discipline into modern AI: RAG pipelines, multi-agent workflows, MCP tooling, and local LLM inference on my local hardware.
 
 ---
 
 ### 🔨 What I'm Building
 
-**[DocQuery](https://github.com/YOUR_USERNAME/docquery)** — A dual-mode RAG application for querying documents with natural language. Supports both local inference (Ollama on DGX Spark) and Azure OpenAI. Built with C#/.NET 8 and React. Currently using it as my AI-102 study partner.
+**[DocQuery](https://github.com/vondraysanford/docquery)** — A dual-mode RAG application for querying documents with natural language. Supports both local inference (Ollama on DGX Spark) and Azure OpenAI. Built with C#/.NET 8 and React.
 
-*More projects coming soon — MCP toolkit, agent orchestration framework, and DGX Spark benchmarks.*
+*In progress — MCP toolkit, agent orchestration framework, and DGX Spark benchmarks.*
 
 ---
 
 ### 🛠 Tech I Work With
 
-**Daily drivers:** C#, .NET Core, ASP.NET, T-SQL, SQL Server, React, JavaScript
+**Languages:** C#, TypeScript, JavaScript, Python, T-SQL, HTML/CSS
 
-**AI & ML:** Azure AI Services, Ollama, RAG Pipelines, LLM Integration, Prompt Engineering
+**Frameworks:** .NET Core, ASP.NET, React, React Native, Node.js, Entity Framework
 
-**Infrastructure:** NVIDIA DGX Spark, Azure Cloud, Docker, Git, IIS
+**Databases:** SQL Server, PostgreSQL, MySQL, Redis
+
+**Cloud & DevOps:** Azure, Docker, Kubernetes, CI/CD, Azure DevOps, Argo
+
+**AI & ML:** Azure AI Services, Ollama, RAG Pipelines, LLM Integration, Claude Code, GitHub Copilot, MCP, Prompt Engineering
+
+**Hardware:** NVIDIA DGX Spark (local inference and fine-tuning)
 
 ---
 
 ### 📜 Certifications
 
-✅ **Azure AI Fundamentals (AI-900)** — Microsoft Certified
+| Certification | Issuer | Date |
+|---|---|---|
+| Azure AI Engineer Associate (AI-102) | Microsoft | Jun 2026 |
+| GitHub Copilot (GH-300) | Microsoft | Jun 2026 |
+| Azure Fundamentals (AZ-900) | Microsoft | Jun 2026 |
+| GitHub Foundations (GH-900) | GitHub | Jun 2026 |
+| Azure AI Fundamentals (AI-900) | Microsoft | Apr 2026 |
+| Claude Code in Action | Anthropic | Jun 2026 |
+| Introduction to Model Context Protocol | Anthropic | Jun 2026 |
+| Introduction to Subagents | Anthropic | Jun 2026 |
+| Introduction to Agent Skills | Anthropic | Jun 2026 |
 
-📖 **Azure AI Engineer Associate (AI-102)** — In Progress (June 2026)
+📖 **Azure Developer Associate (AZ-204)** — In Progress
 
 ---
 
 ### 📊 Current Focus
 
-- Studying for **AI-102** by building a RAG app that uses the exact Azure services on the exam
+- Building **DocQuery**, a RAG app that uses the Azure AI services covered on the AI-102 exam
 - Running local LLM inference and fine-tuning experiments on **DGX Spark**
-- Writing about the journey at [vondraysanford.com](https://vondraysanford.com)
+- Building in public and sharing what I learn at [vondraysanford.com](https://vondraysanford.com) and on [LinkedIn](https://www.linkedin.com/in/vondray-sanford)
 
 ---
 
