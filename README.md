@@ -1,4 +1,4 @@
-<img src="github_profile_banner.png" alt="Vondray Sanford — Software Engineer & AI Builder" width="100%" />
+<img src="github_banner.png" alt="Vondray Sanford — Software Engineer & AI Builder" width="100%" />
 
 ## Hey, I'm Vondray 👋
 
