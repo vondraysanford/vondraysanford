@@ -1,18 +1,25 @@
-<img src="github-banner.svg" alt="Vondray Sanford — Software Engineer & AI Builder" width="100%" />
+<img src="github_profile_banner.svg" alt="Vondray Sanford — Software Engineer & AI Builder" width="100%" />
 
 ## Hey, I'm Vondray 👋
 
 Software Engineer with 7+ years building full-stack enterprise systems at scale, now going deep on AI engineering.
 
-I architect C#/.NET applications that process $1.5T+ in historical insurance data for 18 of the top 20 U.S. carriers. I'm channeling that enterprise engineering discipline into modern AI: RAG pipelines, multi-agent workflows, MCP tooling, and local LLM inference on my local hardware.
+I architect C#/.NET applications that process $1.5T+ in historical insurance data for 18 of the top 20 U.S. carriers. I'm channeling that enterprise engineering discipline into modern AI: RAG pipelines, multi-agent workflows, MCP tooling, and local LLM inference on my NVIDIA DGX Spark.
 
 ---
 
 ### 🔨 What I'm Building
 
-**[DocQuery](https://github.com/vondraysanford/docquery)** — A dual-mode RAG application for querying documents with natural language. Supports both local inference (Ollama on DGX Spark) and Azure OpenAI. Built with C#/.NET 8 and React.
+**[DocQuery](https://github.com/vondraysanford/docquery)** — A local-first RAG application for querying documents in natural language, built in public with C#/.NET 10 and React. Phase 1 is shipped: Ollama + ChromaDB pipeline with cited answers, React UI, smoke tests, and a demo GIF. Phase 2 adds config-swappable Azure OpenAI + Azure AI Search providers behind shared interfaces.
 
-*In progress — MCP toolkit, agent orchestration framework, and DGX Spark benchmarks.*
+*Up next — MCP toolkit, agent orchestration framework, and DGX Spark benchmarks.*
+
+---
+
+### 🔓 Open Source
+
+- **[MonoGame](https://github.com/MonoGame/MonoGame/pulls?q=author%3Avondraysanford)** (14K+ ⭐) — Authored XML API documentation for the `GraphicsAdapter` and `Album` classes across 2 PRs (open, awaiting review)
+- **[KodeKloud AI-102](https://github.com/kodekloudhub/AI-102/pull/1)** — Submitted a security fix replacing hardcoded Azure credentials with placeholders in a public course code sample (open, awaiting review)
 
 ---
 
@@ -32,7 +39,7 @@ I architect C#/.NET applications that process $1.5T+ in historical insurance dat
 
 ---
 
-### 📜 Certifications
+### 📜 Certifications & Training
 
 | Certification | Issuer | Date |
 |---|---|---|
@@ -52,9 +59,10 @@ I architect C#/.NET applications that process $1.5T+ in historical insurance dat
 
 ### 📊 Current Focus
 
-- Building **DocQuery**, a RAG app that uses the Azure AI services covered on the AI-102 exam
+- Building **[DocQuery](https://github.com/vondraysanford/docquery)** in public — Phase 2 wires in the same Azure AI services covered on the AI-102 exam
+- Starting **Georgia Tech OMSCS** (Machine Learning specialization) — DocQuery will be loaded with course materials as my study partner
 - Running local LLM inference and fine-tuning experiments on **DGX Spark**
-- Building in public and sharing what I learn at [vondraysanford.com](https://vondraysanford.com) and on [LinkedIn](https://www.linkedin.com/in/vondray-sanford)
+- Sharing what I learn at [vondraysanford.com](https://vondraysanford.com) and on [LinkedIn](https://www.linkedin.com/in/vondray-sanford)
 
 ---
 
@@ -65,6 +73,6 @@ I architect C#/.NET applications that process $1.5T+ in historical insurance dat
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:vondraysanford@gmail.com)
 
 <!---
-olaRDnOM/olaRDnOM is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+vondraysanford/vondraysanford is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
