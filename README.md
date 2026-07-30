@@ -59,7 +59,7 @@ I architect C#/.NET applications that process $1.5T+ in historical insurance dat
 
 ### 📊 Current Focus
 
-- Building **[DocQuery](https://github.com/vondraysanford/docquery)** in public — Phase 2 wires in the same Azure AI services covered on the AI-102 exam
+- Building **[DocQuery](https://github.com/vondraysanford/docquery)** in public — Phase 4 just shipped the live demo; Phase 5 turns it into a daily study tool
 - Starting **Georgia Tech OMSCS** (Machine Learning specialization) — DocQuery will be loaded with course materials as my study partner
 - Running local LLM inference and fine-tuning experiments on **DGX Spark**
 - Sharing what I learn at [vondraysanford.com](https://vondraysanford.com) and on [LinkedIn](https://www.linkedin.com/in/vondray-sanford)
