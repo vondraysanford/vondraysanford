@@ -10,7 +10,7 @@ I architect C#/.NET applications that process $1.5T+ in historical insurance dat
 
 ### 🔨 What I'm Building
 
-**[DocQuery](https://github.com/vondraysanford/docquery)** — A local-first RAG application for querying documents in natural language, built in public with C#/.NET 10 and React. Phase 1 is shipped: Ollama + ChromaDB pipeline with cited answers, React UI, smoke tests, and a demo GIF. Phase 2 adds config-swappable Azure OpenAI + Azure AI Search providers behind shared interfaces.
+**[DocQuery](https://github.com/vondraysanford/docquery)** — A local-first RAG application for querying documents in natural language, built in public with C#/.NET 10 and React.
 
 *Up next — MCP toolkit, agent orchestration framework, and DGX Spark benchmarks.*
 
