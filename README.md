@@ -14,6 +14,8 @@ I architect C#/.NET applications that process $1.5T+ in historical insurance dat
 
 **[AgentReview](https://github.com/vondraysanford/Agent-Review)** — Multi-agent code review in C#/.NET 10. An orchestrator fans a PR diff out to quality, security, and docs agents that call real tools (Roslyn, Semgrep, GitHub) through MCP, then synthesizes one ranked review. Proving that sophisticated agentic patterns work reliably in the .NET ecosystem — not just Python. Currently in the planning phase, building in public from day one.
 
+**[Twitter Sentiment Analysis Bot](https://github.com/vondraysanford/TwitterSentimentAnalysisBot)** — A shipped Python ML pipeline that classifies tweet sentiment and detects automated accounts with an XGBoost model (0.89 ROC AUC on 10K+ accounts), served through an interactive Discord bot. Includes RSA-signed model integrity checks and a full collection-to-deployment data pipeline.
+
 *Up next — MCP toolkit and DGX Spark benchmarks.*
 
 ---
