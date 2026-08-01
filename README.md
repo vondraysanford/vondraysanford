@@ -12,7 +12,9 @@ I architect C#/.NET applications that process $1.5T+ in historical insurance dat
 
 **[DocQuery](https://github.com/vondraysanford/docquery)** — A local-first RAG application for querying documents in natural language, built in public with C#/.NET 10 and React.
 
-*Up next — MCP toolkit, agent orchestration framework, and DGX Spark benchmarks.*
+**[AgentReview](https://github.com/vondraysanford/Agent-Review)** — Multi-agent code review in C#/.NET 10. An orchestrator fans a PR diff out to quality, security, and docs agents that call real tools (Roslyn, Semgrep, GitHub) through MCP, then synthesizes one ranked review. Proving that sophisticated agentic patterns work reliably in the .NET ecosystem — not just Python. Currently in the planning phase, building in public from day one.
+
+*Up next — MCP toolkit and DGX Spark benchmarks.*
 
 ---
 
@@ -60,6 +62,7 @@ I architect C#/.NET applications that process $1.5T+ in historical insurance dat
 ### 📊 Current Focus
 
 - Building **[DocQuery](https://github.com/vondraysanford/docquery)** in public — Phase 4 just shipped the live demo; Phase 5 turns it into a daily study tool
+- Kicking off **[AgentReview](https://github.com/vondraysanford/Agent-Review)** — multi-agent PR review with an orchestrator, MCP tool servers, and OpenTelemetry observability, all in C#/.NET
 - Starting **Georgia Tech OMSCS** (Machine Learning specialization) — DocQuery will be loaded with course materials as my study partner
 - Running local LLM inference and fine-tuning experiments on **DGX Spark**
 - Sharing what I learn at [vondraysanford.com](https://vondraysanford.com) and on [LinkedIn](https://www.linkedin.com/in/vondray-sanford)
