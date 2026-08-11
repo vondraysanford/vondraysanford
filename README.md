@@ -23,6 +23,7 @@ I architect C#/.NET applications that process $1.5T+ in historical insurance dat
 ### 🔓 Open Source
 
 - **[MonoGame](https://github.com/MonoGame/MonoGame/pulls?q=author%3Avondraysanford)** (14K+ ⭐) — Authored XML API documentation for the `GraphicsAdapter` and `Album` classes across 2 PRs — **both merged** (Aug 2026)
+- **[Kana-Dojo](https://github.com/lingdojo/kana-dojo/pulls?q=author%3Avondraysanford)** — Contributed pull request(s) to the Kana-Dojo repository (open, awaiting review)
 - **[KodeKloud AI-102](https://github.com/kodekloudhub/AI-102/pull/1)** — Submitted a security fix replacing hardcoded Azure credentials with placeholders in a public course code sample (open, awaiting review)
 
 ---
