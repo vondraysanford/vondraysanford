@@ -2,7 +2,7 @@
 
 ## Hey, I'm Vondray 👋
 
-Software Engineer with 7+ years building full-stack enterprise systems at scale, now going deep on AI engineering.
+Senior Software Engineer with 7+ years building full-stack enterprise systems at scale, now going deep on AI engineering.
 
 I architect C#/.NET applications that process $1.5T+ in historical insurance data for 18 of the top 20 U.S. carriers. I'm channeling that enterprise engineering discipline into modern AI: RAG pipelines, multi-agent workflows, MCP tooling, and local LLM inference on my NVIDIA DGX Spark.
 
@@ -10,9 +10,9 @@ I architect C#/.NET applications that process $1.5T+ in historical insurance dat
 
 ### 🔨 What I'm Building
 
-**[DocQuery](https://github.com/vondraysanford/docquery)** — A local-first RAG application for querying documents in natural language, built in public with C#/.NET 10 and React.
+**[AgentReview](https://github.com/vondraysanford/Agent-Review)** — Multi-agent code review in C#/.NET 10, now [live at agentreview.vondraysanford.com](https://agentreview.vondraysanford.com). An orchestrator fans a PR diff out to quality, security, and docs agents that call real tools (Roslyn, Semgrep, GitHub) through MCP, then synthesizes one ranked review. Measured results: 100% precision and human agreement, 17/18 planted-bug recall, $0.068 per review, all traced with OpenTelemetry. Proof that sophisticated agentic patterns work reliably in the .NET ecosystem — not just Python.
 
-**[AgentReview](https://github.com/vondraysanford/Agent-Review)** — Multi-agent code review in C#/.NET 10. An orchestrator fans a PR diff out to quality, security, and docs agents that call real tools (Roslyn, Semgrep, GitHub) through MCP, then synthesizes one ranked review. Proving that sophisticated agentic patterns work reliably in the .NET ecosystem — not just Python. Currently in the planning phase, building in public from day one.
+**[DocQuery](https://github.com/vondraysanford/docquery)** — A local-first RAG application for querying documents in natural language, built in public with C#/.NET 10 and React. Phases 1–4 complete with a [live demo](https://docquery.vondraysanford.com); Phase 5 turns it into a daily study tool.
 
 **[Twitter Sentiment Analysis Bot](https://github.com/vondraysanford/TwitterSentimentAnalysisBot)** — A shipped Python ML pipeline that classifies tweet sentiment and detects automated accounts with an XGBoost model (0.89 ROC AUC on 10K+ accounts), served through an interactive Discord bot. Includes RSA-signed model integrity checks and a full collection-to-deployment data pipeline.
 
@@ -22,7 +22,7 @@ I architect C#/.NET applications that process $1.5T+ in historical insurance dat
 
 ### 🔓 Open Source
 
-- **[MonoGame](https://github.com/MonoGame/MonoGame/pulls?q=author%3Avondraysanford)** (14K+ ⭐) — Authored XML API documentation for the `GraphicsAdapter` and `Album` classes across 2 PRs (open, awaiting review)
+- **[MonoGame](https://github.com/MonoGame/MonoGame/pulls?q=author%3Avondraysanford)** (14K+ ⭐) — Authored XML API documentation for the `GraphicsAdapter` and `Album` classes across 2 PRs — **both merged** (Aug 2026)
 - **[KodeKloud AI-102](https://github.com/kodekloudhub/AI-102/pull/1)** — Submitted a security fix replacing hardcoded Azure credentials with placeholders in a public course code sample (open, awaiting review)
 
 ---
@@ -57,15 +57,16 @@ I architect C#/.NET applications that process $1.5T+ in historical insurance dat
 | Introduction to Subagents | Anthropic | Jun 2026 |
 | Introduction to Agent Skills | Anthropic | Jun 2026 |
 
-📖 **Azure Developer Associate (AZ-204)** — In Progress
+📖 **Machine Learning Operations Engineer Associate (AI-300)** — In Progress
 
 ---
 
 ### 📊 Current Focus
 
-- Building **[DocQuery](https://github.com/vondraysanford/docquery)** in public — Phase 4 just shipped the live demo; Phase 5 turns it into a daily study tool
-- Kicking off **[AgentReview](https://github.com/vondraysanford/Agent-Review)** — multi-agent PR review with an orchestrator, MCP tool servers, and OpenTelemetry observability, all in C#/.NET
-- Starting **Georgia Tech OMSCS** (Machine Learning specialization) — DocQuery will be loaded with course materials as my study partner
+- Studying for the **AI-300** (Microsoft Machine Learning Operations Engineer Associate) — operationalizing ML and generative AI solutions on Azure
+- Shipped **[AgentReview](https://github.com/vondraysanford/Agent-Review)** — all 7 phases complete, with a [hosted demo](https://agentreview.vondraysanford.com) running real three-agent reviews in the browser (Cloudflare Pages UI, Azure Container Apps API)
+- Building **[DocQuery](https://github.com/vondraysanford/docquery)** in public — Phases 1–4 shipped the [live demo](https://docquery.vondraysanford.com); Phase 5 turns it into a daily study tool
+- Starting **Georgia Tech OMSCS** (Machine Learning specialization) this fall — DocQuery will be loaded with course materials as my study partner
 - Running local LLM inference and fine-tuning experiments on **DGX Spark**
 - Sharing what I learn at [vondraysanford.com](https://vondraysanford.com) and on [LinkedIn](https://www.linkedin.com/in/vondray-sanford)
 
