@@ -67,7 +67,7 @@ I architect C#/.NET applications that process $1.5T+ in historical insurance dat
 ### 📊 Current Focus
 
 - Studying for the **AI-300** (Microsoft Machine Learning Operations Engineer Associate) — operationalizing ML and generative AI solutions on Azure
-- Building **DriftWatch** in public — training, deploying, and monitoring an ML pipeline on Azure with CI/CD, drift detection, and automated retraining
+- Building **[DriftWatch](https://github.com/vondraysanford/DriftWatch)** in public — training, deploying, and monitoring an ML pipeline on Azure with CI/CD, drift detection, and automated retraining
 - Shipped **[AgentReview](https://github.com/vondraysanford/Agent-Review)** — all 7 phases complete, with a [hosted demo](https://agentreview.vondraysanford.com) running real three-agent reviews in the browser (Cloudflare Pages UI, Azure Container Apps API)
 - Building **[DocQuery](https://github.com/vondraysanford/docquery)** in public — Phases 1–4 shipped the [live demo](https://docquery.vondraysanford.com); Phase 5 turns it into a daily study tool
 - Running local LLM inference and fine-tuning experiments on **DGX Spark**
