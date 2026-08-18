@@ -4,7 +4,7 @@
 
 Senior Software Engineer with 7+ years building full-stack enterprise systems at scale, now going deep on AI engineering.
 
-I architect C#/.NET applications that process $1.5T+ in historical insurance data for 18 of the top 20 U.S. carriers. I'm channeling that enterprise engineering discipline into modern AI: RAG pipelines, multi-agent workflows, MCP tooling, and local LLM inference on my NVIDIA DGX Spark.
+I architect C#/.NET applications that process trillions in historical data. I'm channeling that enterprise engineering discipline into modern AI: RAG pipelines, multi-agent workflows, MCP tooling, and local LLM inference on my NVIDIA DGX Spark.
 
 ---
 
@@ -80,7 +80,6 @@ I architect C#/.NET applications that process $1.5T+ in historical insurance dat
 
 ### 📫 Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vondray-sanford)
 [![Portfolio](https://img.shields.io/badge/Portfolio-0a0a0b?style=flat&logo=googlechrome&logoColor=white)](https://vondraysanford.com)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:vondraysanford@gmail.com)
 
