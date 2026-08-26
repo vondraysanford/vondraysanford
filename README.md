@@ -1,6 +1,6 @@
 <img src="github-banner.svg" alt="Vondray Sanford — Software Engineer & AI Builder" width="100%" />
 
-## Hey, I'm Vondray 👋
+## Hey, I'm Vondray! 👋
 
 Senior Software Engineer with 7+ years building full-stack enterprise systems at scale, now going deep on AI engineering.
 
