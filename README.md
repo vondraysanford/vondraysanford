@@ -22,6 +22,8 @@ I architect C#/.NET applications that process trillions in historical data. I'm 
 
 **[DocQuery](https://github.com/vondraysanford/docquery)** — A local-first RAG application for querying documents in natural language, built in public with C#/.NET 10 and React. Phases 1–4 complete with a demo now [live at docquery.vondraysanford.com](https://docquery.vondraysanford.com); Phase 5 turns it into a daily study tool.
 
+**[The 10X Engineer Toolkit](https://github.com/vondraysanford/The10XEngineerToolkit)** — A stack-agnostic library of engineering practices packaged for AI coding agents, installable as a Claude Code plugin and portable to any assistant. Skills, agents, prompts, templates, workflows, and configs that codify how great engineers plan, review, and ship — so every ticket, review, and deploy gets the same care automatically.
+
 **[Twitter Sentiment Analysis Bot](https://github.com/vondraysanford/TwitterSentimentAnalysisBot)** — A shipped Python ML pipeline that classifies tweet sentiment and detects automated accounts with an XGBoost model (0.89 ROC AUC on 10K+ accounts), served through an interactive Discord bot. Includes RSA-signed model integrity checks and a full collection-to-deployment data pipeline.
 
 *Up next — MCP toolkit and DGX Spark benchmarks.*
