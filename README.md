@@ -26,8 +26,6 @@ I architect C#/.NET applications that process trillions in historical data. I'm 
 
 **[Twitter Sentiment Analysis Bot](https://github.com/vondraysanford/TwitterSentimentAnalysisBot)** — A shipped Python ML pipeline that classifies tweet sentiment and detects automated accounts with an XGBoost model (0.89 ROC AUC on 10K+ accounts), served through an interactive Discord bot. Includes RSA-signed model integrity checks and a full collection-to-deployment data pipeline.
 
-*Up next — MCP toolkit and DGX Spark benchmarks.*
-
 ---
 ### 🔓 Open Source
 
