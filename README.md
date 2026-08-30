@@ -12,7 +12,7 @@ I architect C#/.NET applications that process trillions in historical data. I'm 
 
 **[DriftWatch](https://github.com/vondraysanford/DriftWatch)** (in progress — building in public) — An end-to-end MLOps pipeline that predicts equipment failure from sensor time-series and, more importantly, stays healthy after deployment: MLflow experiment tracking and registry, DVC-versioned data, GitHub Actions CI/CD to an Azure ML endpoint, and Evidently drift monitoring wired to an automated retrain trigger. The thesis: the model is 20% of an ML system — this project is the other 80%.
 
-*Up next — MCP toolkit and DGX Spark benchmarks.*
+*Up next — DGX Spark benchmarks.*
 
 ---
 
