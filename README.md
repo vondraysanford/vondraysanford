@@ -27,7 +27,7 @@ I architect C#/.NET applications that process trillions in historical data. I'm 
 **[Twitter Sentiment Analysis Bot](https://github.com/vondraysanford/TwitterSentimentAnalysisBot)** — A shipped Python ML pipeline that classifies tweet sentiment and detects automated accounts with an XGBoost model (0.89 ROC AUC on 10K+ accounts), served through an interactive Discord bot. Includes RSA-signed model integrity checks and a full collection-to-deployment data pipeline.
 
 ---
-### 🔓 Open Source
+### 🔓 Open Source Contributions
 
 - **[MonoGame](https://github.com/MonoGame/MonoGame/pulls?q=author%3Avondraysanford)** (14K+ ⭐) — Authored XML API documentation for the `GraphicsAdapter` and `Album` classes across 2 PRs — **both merged** (Aug 2026)
 - **[Cataclysm-DDA](https://github.com/CleverRaven/Cataclysm-DDA/pulls?q=author%3Avondraysanford)** (13K+ ⭐) — Fixed the solar cell's implausible half-meter `longest_side` and added `looks_like` sprite fallbacks for the Xedra Evolved dream weapons across 2 PRs — **both merged** (Aug 2026)
