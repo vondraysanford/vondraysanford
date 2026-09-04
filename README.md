@@ -12,8 +12,6 @@ I architect C#/.NET applications that process trillions in historical data. I'm 
 
 **[SparkBench](https://github.com/vondraysanford/SparkBench)** — Benchmarks and fine-tuning studies on my NVIDIA DGX Spark (GB10, 128 GB unified memory). The headline experiment asks one question: can a LoRA fine-tuned 7–14B open model, running locally, replace the frontier LLM inside AgentReview's Quality Agent at comparable precision/recall and near-zero marginal cost per review? Three conditions — frontier baseline, untuned small model, LoRA-tuned small model — run through the same frozen harness, trained with Hugging Face `peft`/`trl`, served with vLLM and Ollama, and tracked end to end with MLflow and DVC. The methodology is pre-registered: all three possible outcomes are declared publishable up front, training is capped at five full runs, the held-out test set is evaluated exactly once, and results ship with bootstrap confidence intervals. Also includes a reproducible inference benchmarking suite measuring throughput, latency, and memory across models and quantization levels.
 
-🚧 *Phase 0 (scope lock) — building in public across ~7 working weekends, October → mid-December 2026.*
-
 ---
 
 ### 🚀 What I've Shipped 
