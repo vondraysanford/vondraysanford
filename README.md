@@ -73,7 +73,6 @@ I architect C#/.NET applications that process trillions in historical data. I'm 
 ### 📊 Current Focus
 
 - Studying for the **AI-300** (Microsoft Machine Learning Operations Engineer Associate) — operationalizing ML and generative AI solutions on Azure
-- Building **[DriftWatch](https://github.com/vondraysanford/DriftWatch)** in public — training, deploying, and monitoring an ML pipeline on Azure with CI/CD, drift detection, and automated retraining
 - Running local LLM inference and fine-tuning experiments on **DGX Spark**
 - Sharing what I learn at [vondraysanford.com](https://vondraysanford.com) and on [LinkedIn](https://www.linkedin.com/in/vondray-sanford)
 
