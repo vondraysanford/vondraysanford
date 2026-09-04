@@ -10,13 +10,13 @@ I architect C#/.NET applications that process trillions in historical data. I'm 
 
 ### 🔨 What I'm Building
 
-**[DriftWatch](https://github.com/vondraysanford/DriftWatch)** (in progress — building in public) — An end-to-end MLOps pipeline that predicts equipment failure from sensor time-series and, more importantly, stays healthy after deployment: MLflow experiment tracking and registry, DVC-versioned data, GitHub Actions CI/CD to an Azure ML endpoint, and Evidently drift monitoring wired to an automated retrain trigger. The thesis: the model is 20% of an ML system — this project is the other 80%.
-
 *Up next — [SparkBench](https://github.com/vondraysanford/SparkBench)*
 
 ---
 
 ### 🚀 What I've Shipped 
+
+**[DriftWatch](https://github.com/vondraysanford/DriftWatch)** (in progress — building in public) — An end-to-end MLOps pipeline that predicts equipment failure from sensor time-series and, more importantly, stays healthy after deployment: MLflow experiment tracking and registry, DVC-versioned data, GitHub Actions CI/CD to an Azure ML endpoint, and Evidently drift monitoring wired to an automated retrain trigger. The thesis: the model is 20% of an ML system — this project is the other 80%.
 
 **[AgentReview](https://github.com/vondraysanford/Agent-Review)** — Multi-agent code review in C#/.NET 10, demo now [live at agentreview.vondraysanford.com](https://agentreview.vondraysanford.com). An orchestrator fans a PR diff out to quality, security, and docs agents that call real tools (Roslyn, Semgrep, GitHub) through MCP, then synthesizes one ranked review. Measured results: 100% precision and human agreement, 17/18 planted-bug recall, $0.068 per review, all traced with OpenTelemetry. Proof that sophisticated agentic patterns work reliably in the .NET ecosystem — not just Python.
 
