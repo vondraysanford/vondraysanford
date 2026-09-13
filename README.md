@@ -81,6 +81,7 @@ I architect C#/.NET applications that process trillions in historical data. I'm 
 ### 📫 Connect
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0a0a0b?style=flat&logo=googlechrome&logoColor=white)](https://vondraysanford.com)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/vondraysanford)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:vondraysanford@gmail.com)
 
 <!---
