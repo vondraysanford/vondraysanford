@@ -4,13 +4,13 @@
 
 Senior Software Engineer with 7+ years building full-stack enterprise systems at scale, now going deep on AI engineering.
 
-I architect C#/.NET applications that process trillions in historical data. I'm channeling that enterprise engineering discipline into modern AI: RAG pipelines, multi-agent workflows, MCP tooling, and local LLM inference on my NVIDIA DGX Spark.
+I architect C#/.NET applications that process trillions in historical data. I'm channeling that enterprise engineering discipline into modern AI: RAG pipelines, multi-agent workflows, MCP tooling, and local LLM inference on my two NVIDIA DGX Sparks.
 
 ---
 
 ### 🔨 What I'm Building
 
-**[SparkBench](https://github.com/vondraysanford/SparkBench)** — Benchmarks and fine-tuning studies on my NVIDIA DGX Spark (GB10, 128 GB unified memory). The headline experiment asks one question: can a LoRA fine-tuned 7–14B open model, running locally, replace the frontier LLM inside AgentReview's Quality Agent at comparable precision/recall and near-zero marginal cost per review? Three conditions — frontier baseline, untuned small model, LoRA-tuned small model — run through the same frozen harness, trained with Hugging Face `peft`/`trl`, served with vLLM and Ollama, and tracked end to end with MLflow and DVC. The methodology is pre-registered: all three possible outcomes are declared publishable up front, training is capped at five full runs, the held-out test set is evaluated exactly once, and results ship with bootstrap confidence intervals. Also includes a reproducible inference benchmarking suite measuring throughput, latency, and memory across models and quantization levels.
+**[SparkBench](https://github.com/vondraysanford/SparkBench)** — Benchmarks and fine-tuning studies on my two NVIDIA DGX Sparks (GB10, 128 GB unified memory each). The headline experiment asks one question: can a LoRA fine-tuned 7–14B open model, running locally, replace the frontier LLM inside AgentReview's Quality Agent at comparable precision/recall and near-zero marginal cost per review? Three conditions — frontier baseline, untuned small model, LoRA-tuned small model — run through the same frozen harness, trained with Hugging Face `peft`/`trl`, served with vLLM and Ollama, and tracked end to end with MLflow and DVC. The methodology is pre-registered: all three possible outcomes are declared publishable up front, training is capped at five full runs, the held-out test set is evaluated exactly once, and results ship with bootstrap confidence intervals. Also includes a reproducible inference benchmarking suite measuring throughput, latency, and memory across models and quantization levels.
 
 ---
 
@@ -25,6 +25,8 @@ I architect C#/.NET applications that process trillions in historical data. I'm 
 **[The 10X Engineer Toolkit](https://github.com/vondraysanford/The10XEngineerToolkit)** — A stack-agnostic library of engineering practices packaged for AI coding agents, installable as a Claude Code plugin and portable to any assistant. Skills, agents, prompts, templates, workflows, and configs that codify how great engineers plan, review, and ship — so every ticket, review, and deploy gets the same care automatically.
 
 **[Twitter Sentiment Analysis Bot](https://github.com/vondraysanford/TwitterSentimentAnalysisBot)** — A shipped Python ML pipeline that classifies tweet sentiment and detects automated accounts with an XGBoost model (0.89 ROC AUC on 10K+ accounts), served through an interactive Discord bot. Includes RSA-signed model integrity checks and a full collection-to-deployment data pipeline.
+
+**[SparkDash](https://github.com/vondraysanford/SparkDash)** — A dashboard and chat client for a vLLM server: health, tokens/s from Prometheus counter deltas, and SSE chat with the model's reasoning split from its answer. Built end to end by GLM-5.3-Flash — a 320B mixture-of-experts model running tensor-parallel across my two DGX Sparks — in a 44-minute VS Code agent session against a spec and scorecard written beforehand. 16 tests, CI, and every claim checked against the live server; the repo carries the model's own session summary and the cluster's first `vllm bench serve` numbers. [Write-up](https://vondraysanford.com/writing/2026-09-14-sparkdash-i-gave-a-320b-model-a-spec-and-pointed-it-at-the-s.html).
 
 ---
 ### 🔓 Open Source Contributions
@@ -46,9 +48,9 @@ I architect C#/.NET applications that process trillions in historical data. I'm 
 
 **Cloud & DevOps:** Azure, Docker, Kubernetes, CI/CD, Azure DevOps, Argo
 
-**AI & ML:** Azure AI Services, Ollama, RAG Pipelines, LLM Integration, Claude Code, GitHub Copilot, MCP, Prompt Engineering
+**AI & ML:** Azure AI Services, Ollama, vLLM, RAG Pipelines, LLM Integration, Claude Code, GitHub Copilot, MCP, Prompt Engineering
 
-**Hardware:** NVIDIA DGX Spark (local inference and fine-tuning)
+**Hardware:** 2× NVIDIA DGX Spark (GB10, 128 GB unified memory each), bridged over ConnectX-7 at 200 Gbps — local inference, fine-tuning, and two-node tensor-parallel serving
 
 ---
 
@@ -74,6 +76,7 @@ I architect C#/.NET applications that process trillions in historical data. I'm 
 
 - Studying for the **AI-300** (Microsoft Machine Learning Operations Engineer Associate) — operationalizing ML and generative AI solutions on Azure
 - Running local LLM inference and fine-tuning experiments on **DGX Spark** via [SparkBench](https://github.com/vondraysanford/SparkBench)
+- Serving **GLM-5.3-Flash** (320B MoE, 4-bit EXL3) tensor-parallel across both Sparks as a local coding model for VS Code — [what that took](https://vondraysanford.com/writing/2026-09-14-320b-on-two-sparks-what-it-actually-takes-to-run-a-mixture-o.html), with [SparkDash](https://github.com/vondraysanford/SparkDash) watching it
 - Sharing what I learn at [vondraysanford.com](https://vondraysanford.com) and on [LinkedIn](https://www.linkedin.com/in/vondray-sanford)
 
 ---
