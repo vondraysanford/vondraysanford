@@ -26,7 +26,7 @@ I architect C#/.NET applications that process trillions in historical data. I'm 
 
 **[Twitter Sentiment Analysis Bot](https://github.com/vondraysanford/TwitterSentimentAnalysisBot)** — A shipped Python ML pipeline that classifies tweet sentiment and detects automated accounts with an XGBoost model (0.89 ROC AUC on 10K+ accounts), served through an interactive Discord bot. Includes RSA-signed model integrity checks and a full collection-to-deployment data pipeline.
 
-**[SparkDash](https://github.com/vondraysanford/SparkDash)** — A dashboard and chat client for a vLLM server: health, tokens/s from Prometheus counter deltas, and SSE chat with the model's reasoning split from its answer. Built end to end by GLM-5.3-Flash — a 320B mixture-of-experts model running tensor-parallel across my two DGX Sparks — in a 44-minute VS Code agent session against a spec and scorecard written beforehand. 16 tests, CI, and every claim checked against the live server; the repo carries the model's own session summary and the cluster's first `vllm bench serve` numbers. [Write-up](https://vondraysanford.com/writing/2026-09-14-sparkdash-i-gave-a-320b-model-a-spec-and-pointed-it-at-the-s.html).
+**[SparkDash](https://github.com/vondraysanford/SparkDash)** — A dashboard and chat client for a vLLM server: health, tokens/s from Prometheus counter deltas, and SSE chat with the model's reasoning split from its answer. Built end to end by GLM-5.3-Flash — a 320B mixture-of-experts model running tensor-parallel across my two DGX Sparks — in a 44-minute VS Code agent session against a spec and scorecard written beforehand. 16 tests, CI, and every claim checked against the live server; the repo carries the model's own session summary and the cluster's first `vllm bench serve` numbers.
 
 ---
 ### 🔓 Open Source Contributions
@@ -76,7 +76,7 @@ I architect C#/.NET applications that process trillions in historical data. I'm 
 
 - Studying for the **AI-300** (Microsoft Machine Learning Operations Engineer Associate) — operationalizing ML and generative AI solutions on Azure
 - Running local LLM inference and fine-tuning experiments on **DGX Spark** via [SparkBench](https://github.com/vondraysanford/SparkBench)
-- Serving **GLM-5.3-Flash** (320B MoE, 4-bit EXL3) tensor-parallel across both Sparks as a local coding model for VS Code — [what that took](https://vondraysanford.com/writing/2026-09-14-320b-on-two-sparks-what-it-actually-takes-to-run-a-mixture-o.html), with [SparkDash](https://github.com/vondraysanford/SparkDash) watching it
+- Serving **GLM-5.3-Flash** (320B MoE, 4-bit EXL3) tensor-parallel across both Sparks as a local coding model for VS Code
 - Sharing what I learn at [vondraysanford.com](https://vondraysanford.com) and on [LinkedIn](https://www.linkedin.com/in/vondray-sanford)
 
 ---
