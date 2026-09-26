@@ -67,6 +67,8 @@ I architect C#/.NET applications that process trillions in historical data. I'm 
 | Introduction to Model Context Protocol | Anthropic | Jun 2026 |
 | Introduction to Subagents | Anthropic | Jun 2026 |
 | Introduction to Agent Skills | Anthropic | Jun 2026 |
+| Building Agentic AI with Amazon Bedrock AgentCore | AWS | Sep 2026 |
+| OWASP Top 10 LLM and GenAI | Snyk | Sep 2026 |
 
 📖 **Machine Learning Operations Engineer Associate (AI-300)** — In Progress
 
