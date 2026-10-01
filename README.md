@@ -68,6 +68,9 @@ I architect C#/.NET applications that process trillions in historical data. I'm 
 | Introduction to Subagents | Anthropic | Jun 2026 |
 | Introduction to Agent Skills | Anthropic | Jun 2026 |
 | Building Agentic AI with Amazon Bedrock AgentCore | AWS | Sep 2026 |
+| Building Advanced Agentic Systems on AWS | AWS | Sep 2026 |
+| OWASP Top 10 | Snyk | Sep 2026 |
+| OWASP API Security Top 10 | Snyk | Sep 2026 |
 | OWASP Top 10 LLM and GenAI | Snyk | Sep 2026 |
 | OWASP Top 10 for Agentic Applications | Snyk | Sep 2026 |
 
